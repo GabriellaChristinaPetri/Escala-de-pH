@@ -1,0 +1,155 @@
+* {
+    margin:0px;
+}
+.contcor {
+    display: grid;
+    height: 80vh;
+    gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1.5fr 0.5fr;
+  grid-template-areas:  "c0 c1 c2 c3 c4 c5 c6 c7 c8 c9 c10 c11 c12 c13 c14"
+                        "n0 n1 n2 n3 n4 n5 n6 n7 n8 n9 n10 n11 n12 n13 n14";
+}
+
+.tittle{
+    grid-area: t;
+    text-align: center;
+    height: 100px;
+    margin-top: 40px;
+}
+
+#c0 {
+    grid-area: c0;
+    background-color: rgb(255, 13, 0);
+}
+#c1 {
+    grid-area: c1;
+    background-color: rgb(255, 77, 0);
+}
+#c2 {
+    grid-area: c2;
+    background-color: rgb(255, 153, 0);
+}
+#c3 {
+    grid-area: c3;
+    background-color: rgb(255, 242, 0);
+}
+#c4 {
+    grid-area: c4;
+    background-color: rgb(179, 255, 0);
+}
+#c5 {
+    grid-area: c5;
+    background-color: rgb(77, 255, 0);
+}
+#c6 {
+    grid-area: c6;
+    background-color: rgb(0, 255, 4);
+}
+#c7 {
+    grid-area: c7;
+    background-color: rgb(0, 255, 98);
+}
+#c8 {
+    grid-area: c8;
+    background-color: rgb(0, 255, 200);
+}
+#c9 {
+    grid-area: c9;
+    background-color: rgb(0, 132, 255);
+}
+#c10 {
+    grid-area: c10;
+    background-color: rgb(0, 81, 255);
+}
+#c11 {
+    grid-area: c11;
+    background-color: rgb(0, 13, 255);
+}
+#c12 {
+    grid-area: c12;
+    background-color: rgb(76, 0, 255);
+}
+#c13 {
+    grid-area: c13;
+    background-color: rgb(170, 0, 255);
+}
+#c14 {
+    grid-area: c14;
+    background-color: rgb(221, 0, 255);
+}
+
+#n0 {
+    grid-area: n0;
+    text-align: center;
+}
+
+#n1 {
+    grid-area: n1;
+    text-align: center;
+}
+
+#n2 {
+    grid-area: n2;
+    text-align: center;
+}
+
+#n3 {
+    grid-area: n3;
+    text-align: center;
+}
+
+#n4 {
+    grid-area: n4;
+    text-align: center;
+}
+
+#n5 {
+    grid-area: n5;
+    text-align: center;
+}
+
+#n6 {
+    grid-area: n6;
+    text-align: center;
+}
+
+#n7 {
+    grid-area: n7;
+    text-align: center;
+}
+
+#n8 {
+    grid-area: n8;
+    text-align: center;
+}
+
+#n9 {
+    grid-area: n9;
+    text-align: center;
+}
+
+#n10 {
+    grid-area: n10;
+    text-align: center;
+}
+
+#n11 {
+    grid-area: n11;
+    text-align: center;
+}
+
+#n12 {
+    grid-area: n12;
+    text-align: center;
+}
+
+#n13 {
+    grid-area: n13;
+    text-align: center;
+}
+
+#n14 {
+    grid-area: n14;
+    text-align: center;
+}
